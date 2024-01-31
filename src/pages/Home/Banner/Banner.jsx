@@ -11,18 +11,22 @@ const Banner = () => {
                     <div className='text-white space-y-7 pl-10 w-1/3'>
                         <h1 className='text-5xl  font-semibold'>Affordable Price For Car Servicing</h1>
 
-                        <p className='text-xl '>There are many variations of 
-                            passages of  available, but 
+                        <p className='text-xl '>There are many variations of
+                            passages of  available, but
                             the majority have suffered
-                             alteration in some form</p>
-                    
+                            alteration in some form</p>
+
                         <div>
-                        <button className="btn btn-secondary mr-5">Secondary</button>
-                        <button className="btn btn-outline btn-secondary">Secondary</button>
+                            <button className="btn btn-secondary mr-5">Secondary</button>
+                            <button className="btn btn-outline btn-secondary">Secondary</button>
 
                         </div>
-                    
+
                     </div>
+                </div>
+                <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
+                    <a href="#slide4" className="btn btn-circle mr-5">❮</a>
+                    <a href="#slide2" className="btn btn-circle">❯</a>
                 </div>
             </div>
             <div id="slide2" className="carousel-item relative w-full">
@@ -31,20 +35,20 @@ const Banner = () => {
                     <div className='text-white space-y-7 pl-10 w-1/3'>
                         <h1 className='text-5xl  font-semibold'>Affordable Price For Car Servicing</h1>
 
-                        <p className='text-xl '>There are many variations of 
-                            passages of  available, but 
+                        <p className='text-xl '>There are many variations of
+                            passages of  available, but
                             the majority have suffered
-                             alteration in some form</p>
-                    
+                            alteration in some form</p>
+
                         <div>
-                        <button className="btn btn-secondary mr-5">Secondary</button>
-                        <button className="btn btn-outline btn-secondary">Secondary</button>
+                            <button className="btn btn-secondary mr-5">Secondary</button>
+                            <button className="btn btn-outline btn-secondary">Secondary</button>
 
                         </div>
-                    
+
                     </div>
                 </div>
-                <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
                     <a href="#slide1" className="btn btn-circle mr-5">❮</a>
                     <a href="#slide3" className="btn btn-circle">❯</a>
                 </div>
@@ -55,20 +59,20 @@ const Banner = () => {
                     <div className='text-white space-y-7 pl-10 w-1/3'>
                         <h1 className='text-5xl  font-semibold'>Affordable Price For Car Servicing</h1>
 
-                        <p className='text-xl '>There are many variations of 
-                            passages of  available, but 
+                        <p className='text-xl '>There are many variations of
+                            passages of  available, but
                             the majority have suffered
-                             alteration in some form</p>
-                    
+                            alteration in some form</p>
+
                         <div>
-                        <button className="btn btn-secondary mr-5">Secondary</button>
-                        <button className="btn btn-outline btn-secondary">Secondary</button>
+                            <button className="btn btn-secondary mr-5">Secondary</button>
+                            <button className="btn btn-outline btn-secondary">Secondary</button>
 
                         </div>
-                    
+
                     </div>
                 </div>
-                <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
                     <a href="#slide2" className="btn btn-circle mr-5">❮</a>
                     <a href="#slide4" className="btn btn-circle">❯</a>
                 </div>
@@ -79,20 +83,20 @@ const Banner = () => {
                     <div className='text-white space-y-7 pl-10 w-1/3'>
                         <h1 className='text-5xl  font-semibold'>Affordable Price For Car Servicing</h1>
 
-                        <p className='text-xl '>There are many variations of 
-                            passages of  available, but 
+                        <p className='text-xl '>There are many variations of
+                            passages of  available, but
                             the majority have suffered
-                             alteration in some form</p>
-                    
+                            alteration in some form</p>
+
                         <div>
-                        <button className="btn btn-secondary mr-5">Secondary</button>
-                        <button className="btn btn-outline btn-secondary">Secondary</button>
+                            <button className="btn btn-secondary mr-5">Secondary</button>
+                            <button className="btn btn-outline btn-secondary">Secondary</button>
 
                         </div>
-                    
+
                     </div>
                 </div>
-                <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
                     <a href="#slide3" className="btn btn-circle mr-5">❮</a>
                     <a href="#slide1" className="btn btn-circle">❯</a>
                 </div>
