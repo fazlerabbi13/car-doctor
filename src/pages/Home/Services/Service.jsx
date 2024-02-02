@@ -8,7 +8,7 @@ const Service = ({service}) => {
                 <h2 className="card-title">{title}</h2>
                 <p>{price}</p>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Buy Now</button>
+                    <button className="btn btn-primary">Book Now</button>
                 </div>
             </div>
         </div>
