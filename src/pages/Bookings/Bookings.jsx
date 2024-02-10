@@ -63,7 +63,6 @@ const Bookings = () => {
 
     return (
         <div>
-            <h1>Bookings:{bookings.length}</h1>
             <div className="overflow-x-auto">
                 <table className="table">
                     {/* head */}
