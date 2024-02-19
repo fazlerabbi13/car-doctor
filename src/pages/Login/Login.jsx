@@ -4,7 +4,7 @@ import { useContext } from 'react';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 import axios from 'axios';
 const Login = () => {
-    const {signInUser} = useContext(AuthContext);
+    const { signInUser } = useContext(AuthContext);
     const location = useLocation();
     const navigate = useNavigate()
     const handleLogin = (e) => {
@@ -13,19 +13,21 @@ const Login = () => {
         const email = form.email.value;
         const password = form.password.value;
 
-        signInUser(email,password)
-        .then(result =>{
-            const loggedUser = result.user;
-            console.log(loggedUser)
-             const user = {email}
+        signInUser(email, password)
+            .then(result => {
+                const loggedUser = result.user;
+                console.log(loggedUser)
+                const user = { email }
 
-            axios.post('http://localhost:5000/jwt', user)
-            .then(res =>{
-                console.log(res.data)
+                axios.post('http://localhost:5000/jwt', user, { withCredentials: true })
+                    .then(res => {
+                        console.log(res.data)
+                        if (res.data.success) {
+                            navigate(location?.state ? location?.state : '/')
+                        }
+                    })
             })
-            // navigate(location?.state ? location?.state : '/')
-        })
-        .catch(error =>console.log(error))
+            .catch(error => console.log(error))
 
     }
     return (
